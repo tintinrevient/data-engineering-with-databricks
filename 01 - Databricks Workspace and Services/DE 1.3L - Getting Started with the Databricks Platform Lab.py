@@ -165,6 +165,13 @@ display(example_df)
 
 # COMMAND ----------
 
+print(f"DA:                   {DA}")
+print(f"DA.username:          {DA.username}")
+print(f"DA.paths.working_dir: {DA.paths.working_dir}")
+print(f"DA.schema_name:       {DA.schema_name}")
+
+# COMMAND ----------
+
 # MAGIC %md <i18n value="7499c6b6-b3f3-4641-88d9-5a260d3c11f8"/>
 # MAGIC 
 # MAGIC 
